@@ -99,21 +99,21 @@ nav uli {
 }
 }
 
-.day-schedule {
+.uhhiloschedule {
     background-color: rgb(193,230,247);
     padding: 10 px;
 }
 
-.day-schedule h3 {
+.uhhiloschedule h3 {
   margin: 0;
   color: rgb(9,84,143);
 }
 
-.day-schedule ul {
+.uhhiloschedule ul {
   padding-left: 10px;
 }
 
-.day-schedule ul li {
+.uhhiloschedule ul li {
   margin: 0;
   font-size: 18px;
 }
