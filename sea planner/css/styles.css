@@ -1,7 +1,22 @@
 /* Author: Bella Ranches
 File Name: styles.css
-Date: 10/16/25
+Date: 10/19/25
 */
+
+body, header, nav, main, footer, img, h1, ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.round {
+	border-radius: 8px;
+}
 
 body {
     font-family: "Lora", serif;
@@ -66,7 +81,7 @@ footer {
     background-color: rgb(12,156,196);
     color: white;
     padding: 10 px;
-    font-size: 15 px;
+    font-size: 10 px;
 }
 
 @media screen and (max-width: 600px) {
