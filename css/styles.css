@@ -31,7 +31,7 @@ body {
 /* The hero image COPIED FROM W3Schools*/
 .hero-image {
   /* Set a specific height */
-  height: 50%;
+  height: 50vh;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
