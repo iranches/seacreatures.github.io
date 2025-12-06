@@ -80,7 +80,7 @@ body {
 header {
     text-align: center;
     padding: 25px 0;
-    background-color: (64,181,173);
+    background-color: rgb(64,181,173);
     color: black;
 }
 
@@ -110,12 +110,14 @@ main {
     padding: 10px;
 }
 
-.intro {
+/*.intro {
     background-color: rgb(166,245,142);
     max-width: 700px;
     margin: 20;
     padding: 20px;
 }
+DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER    
+*/
 
 .intro h2 {
     color: rgb(74,163,47);
@@ -177,7 +179,7 @@ nav uli {
 
 .weekbudget h3 {
     margin: 20px;
-    color: rgb(101,67,33)
+    color: rgb(101,67,33);
 
 }
 
