@@ -164,7 +164,7 @@ nav uli {
 
 .uhhiloschedule ul {
   padding-left: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .uhhiloschedule ul li {
@@ -185,7 +185,7 @@ nav uli {
 
 .weekbudget ul {
     padding-left: 0;
-    text-align: left;    
+    text-align: center;    
 }
 
 .weekbudget ul li {
