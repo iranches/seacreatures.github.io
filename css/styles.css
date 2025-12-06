@@ -9,10 +9,10 @@ body, header, nav, main, footer, img, h1, ul {
 	border: 0;
 }
 
-img {
+/*img {
 	max-width: 100%;
 	display: block;
-}
+}*/
 
 .round {
 	border-radius: 8px;
