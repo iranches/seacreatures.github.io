@@ -81,7 +81,7 @@ header {
     text-align: center;
     padding: 25px 0;
     background-color: (64,181,173);
-    color: white;
+    color: black;
 }
 
 header h1 {
@@ -100,7 +100,7 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 600;
 }
