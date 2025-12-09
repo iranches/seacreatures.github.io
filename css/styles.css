@@ -129,7 +129,7 @@ DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER
 .table {
     width: 100%;
     margin: 20px auto;
-    border: 3 px solid #00008b 
+    border: 3 px solid #00008b; 
     background-color: rgb(225,247,250);
 }
 
@@ -152,6 +152,10 @@ DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER
     background-color: rgb(193,230,247);
 }
 
+/*notes font*/
+.notes {
+  font-size: 20px;
+}
 footer {
     text-align: center;
     background-color: rgb(12,156,196);
