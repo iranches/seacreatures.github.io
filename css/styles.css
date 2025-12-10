@@ -114,7 +114,7 @@ header h3 {
 }
 
 .mobile {
-  display: block;
+  display: inline-block;
 }
 
 nav ul {
@@ -141,7 +141,7 @@ nav a {
     font-size: 15px;
     text-decoration: none;
     padding: 3%;
-    display: block;
+    display: inline-block;
 }
 
 .mobile-nav a.nav-icon {
@@ -330,7 +330,7 @@ nav ul {
   
 nav ul li {
     list-style-type: none;
-    display: block;
+    display: inline-block;
     margin: 0;
 }
 
