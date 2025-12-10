@@ -112,6 +112,11 @@ header h2 {
 header h3 {
    font-size: 18px;
 }
+
+.mobile {
+  display: block;
+}
+
 nav ul {
     margin: 20px;
     padding: 10 px;
@@ -295,6 +300,11 @@ no longer using now using table for classschedule.html
 */
 
 @media screen and (max-width: 600px) {
+
+.mobile,
+.mobile-nav {
+    display: none;
+}
 header h1 {
     font-size: 25px;
     margin: 20px;
