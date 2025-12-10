@@ -108,6 +108,10 @@ header h1 {
 header h2 {
    font-size: 20px;
 }
+
+header h3 {
+   font-size: 18px;
+}
 nav ul {
     margin: 20px;
     padding: 10 px;
@@ -129,7 +133,7 @@ nav a {
 .mobile-nav a {
     color: #fff;
     text-align: center;
-    font-size: 2em;
+    font-size: 15px;
     text-decoration: none;
     padding: 3%;
     display: block;
@@ -145,8 +149,8 @@ nav a {
 }
 
 .nav-icon div { 
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     color: #2a1f14; 
 } 
 main {
