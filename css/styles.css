@@ -148,9 +148,9 @@ nav a {
     font-size: 15px;
     display: inline-block;
     position: absolute;
-    left: 0;
-    top: 0;
     color: #162c5c;
+    margin-top: 10px;  
+    text-align: center;
     padding: 2%;
 }
 
@@ -305,6 +305,19 @@ no longer using now using table for classschedule.html
 .mobile-nav {
     display: none;
 }
+
+nav ul {
+      display: none;
+  }
+
+  /* Hamburger icon */
+  .mobile-nav .nav-icon {
+      display: inline-block;  /* makes it one line */
+      font-size: 15px;
+      color: black;
+      margin-top: 10px;       /* small space below header */
+  }
+
 header h1 {
     font-size: 25px;
     margin: 20px;
