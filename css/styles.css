@@ -135,6 +135,12 @@ nav a {
     font-weight: 600;
 }
 
+.mobile-nav {
+    display: none; 
+    text-align: center;
+    background-color: rgb(76, 194, 186);
+}
+
 .mobile-nav a {
     color: #fff;
     text-align: center;
@@ -301,12 +307,10 @@ no longer using now using table for classschedule.html
 
 @media screen and (max-width: 600px) {
 
-.mobile,
 .mobile-nav {
-    display: none;
-}
+        display: block;
+    }
 
-  /* Hamburger icon */
   .mobile-nav .nav-icon {
       display: inline-block;  
       font-size: 15px;
