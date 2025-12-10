@@ -112,6 +112,7 @@ nav ul {
 }
 
 nav ul li {
+    list-style-type: none;
     display: inline-block;
     margin: 20px;
 }
@@ -231,10 +232,12 @@ header h1 {
 }
 
 nav ul {
+    list-style-type: none;
     padding: 0;
   }
   
 nav ul li {
+    list-style-type: none;
     display: block;
     margin: 0;
 }
