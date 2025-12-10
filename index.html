@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-  <meta charset = "UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial scale=1.0"
+  <meta charset="UTF-8">
+  <meta name ="viewport" content = "width=device-width, initial scale=1.0"
   <title> Under the S(ea)tudent Planner! | Home</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <link rel = "stylesheet" href = "css/styles.css">
@@ -10,14 +10,16 @@
 <body>
 <header>
   <h1>(Sea)tudent Planner</h1>
-<nav>
-<ul>
-  <li><a href = "index.html">Home</a></li>
-   <li><a href = "classschedule.html">Schedule</a></li>
-    <li><a href = "assignments.html">Assignments</a></li>
-     <li><a href = "notes.html">Notes</a></li>
-     <li><a href="budget.html">Weekly Budget</a></li>
-</ul>
+<nav class="mobile-nav">
+  <!-- hamburger -->
+  <span id="icon" class="nav-icon" onclick="menu()">&#9776;</span>
+  <div id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="classschedule.html">Class Schedule</a>
+    <a href="assignments.html">Assignments</a>
+    <a href="notes.html">Notes</a>
+    <a href="budget.html">Weekly Budget</a>
+  </div>
 </nav>
 </header>
 
@@ -34,5 +36,6 @@
 <footer>
   <p>S(ea)tudent Planner By Bella</p>
 </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>

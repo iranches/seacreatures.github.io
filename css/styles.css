@@ -126,6 +126,29 @@ nav a {
     font-weight: 600;
 }
 
+.mobile-nav a {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f6eee4;
+    padding: 2%;
+}
+
+.nav-icon div { 
+    height: 40px;
+    width: 40px;
+    color: #2a1f14; 
+} 
 main {
     text-align: center;
     padding: 10px;
@@ -161,8 +184,7 @@ input {
 }
 
 fieldset legend {
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 label {
@@ -172,7 +194,7 @@ label {
 }
 
 .weekbudget {
- background-color: rgb(92, 116, 145);
+ background-color: rgb(149, 182, 221);
  padding: 0x;
 
 }

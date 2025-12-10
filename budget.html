@@ -11,14 +11,16 @@
 
   <header>
   <h1>S(ea)tudent Planner</h1>
-  <nav>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="classschedule.html">Class Schedule</a></li>
-    <li><a href="assignments.html">Assignments</a></li>
-    <li><a href="notes.html">Notes</a></li>
-    <li><a href="budget.html">Weekly Budget</a></li>
-  </ul>
+  <nav class="mobile-nav">
+  <!-- hamburger -->
+  <span id="icon" class="nav-icon" onclick="menu()">&#9776;</span>
+  <div id="nav-links">
+    <a href="index.html">Home</a>
+    <a href="classschedule.html">Class Schedule</a>
+    <a href="assignments.html">Assignments</a>
+    <a href="notes.html">Notes</a>
+    <a href="budget.html">Weekly Budget</a>
+  </div>
 </nav>
 </header>
 
@@ -228,6 +230,6 @@
 <footer>
   <p>S(ea)tudent Planner by Bella</p>
 </footer>
-
+<script src="js/scripts.js"></script>
 </body>
 </html>
