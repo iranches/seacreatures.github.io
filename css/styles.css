@@ -216,6 +216,8 @@ footer {
     font-size: 10px;
 }
 
+/*
+no longer using now using table for classschedule.html
 .uhhiloschedule {
     background-color: rgb(193,230,247);
     padding: 10px;
@@ -235,10 +237,11 @@ footer {
   margin: 20px;
   font-size: 18px;
 }
-
+*/
 .weekbudget {
  background-color: rgb(246,215,176);
  padding: 10px;
+
 }
 
 .weekbudget h3 {
@@ -248,6 +251,7 @@ footer {
 }
 
 .weekbudget ul {
+    list-style: none;
     padding-left: 0;
     text-align: center;    
 }
