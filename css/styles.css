@@ -105,14 +105,17 @@ header h1 {
     font-size: 32px;
 }
 
+header h2 {
+   font-size: 20px
+}
 nav ul {
     margin: 20px;
     padding: 10 px;
     list-style-type: none;
+    /*list-style-type I searched on Google because I want to get rid of bullet points, list-style-type focuses on what style you want to use */
 }
 
 nav ul li {
-    list-style-type: none;
     display: inline-block;
     margin: 20px;
 }
@@ -148,6 +151,7 @@ DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER
   */
 
 /*for my budget.html form*/
+
 fieldset {
     margin-bottom: 2%;
 }
@@ -163,8 +167,31 @@ fieldset legend {
 
 label {
     display: block;
-    padding-top: 3%;
+    padding-top: 1%;
     font-size: 18px;
+}
+
+.weekbudget {
+ background-color: rgb(246,215,176);
+ padding: 0x;
+
+}
+
+.weekbudget h3 {
+    margin: 20px;
+    color: rgb(101,67,33);
+
+}
+
+.weekbudget ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;    
+}
+
+.weekbudget ul li {
+    font-size: 20px;
+    margin: 0;
 }
 
 /* class schedule table classchedule.html*/
@@ -238,28 +265,6 @@ no longer using now using table for classschedule.html
   font-size: 18px;
 }
 */
-.weekbudget {
- background-color: rgb(246,215,176);
- padding: 10px;
-
-}
-
-.weekbudget h3 {
-    margin: 20px;
-    color: rgb(101,67,33);
-
-}
-
-.weekbudget ul {
-    list-style: none;
-    padding-left: 0;
-    text-align: center;    
-}
-
-.weekbudget ul li {
-    font-size: 20px;
-    margin: 0;
-}
 
 @media screen and (max-width: 600px) {
 header h1 {
