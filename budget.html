@@ -32,77 +32,197 @@
   </div>
 
   <div class="weekbudget">
-    <h3>UHH Class Necessities</h3>
-    <ul>
-      <li>Textbooks / Course Materials – $___</li>
-      <li>Supplies (pens, notebooks, etc.) – $___</li>
-      <li>Printing / Copies – $___</li>
-      <li>Transportation (gas, Uber, Hele-On etc.) – $___</li>
-    </ul>
-  </div>
+  <div id="form">
+    <h2>Complete the weekly budget form to start thinking about what you want your budget for different aspects of college to be:</h2>
+    <form class="form-grid">
+<fieldset>
+<legend>UHH Class Necessities</legend>
+<ul>
+    <li>
+        <label for="textbooks">Textbooks / Course Materials – $</label>
+            <input type="text" id="textbooks" name="textbooks">
+    </li>
 
-  <div class="weekbudget">
-    <h3>Dorm / Housing Necessities</h3>
-    <ul>
-      <li>Toiletries – $___</li>
-      <li>Cleaning Supplies – $___</li>
-      <li>Laundry – $___</li>
-      <li>Room Items (decor, bedding, kitchen tools, etc.) – $___</li>
-    </ul>
-  </div>
+    <li>
+        <label for="supplies">Supplies (pens, notebooks, etc.) – $</label>
+        <input type="text" id="supplies" name="supplies">
+    </li>
 
-  <div class="weekbudget">
-    <h3>Outside Food / Eating Out</h3>
-    <ul>
-      <li>Restaurants – $___</li>
-      <li>Coffee / Boba – $___</li>
-      <li>Snacks – $___</li>
-      <li>Groceries – $___</li>
-    </ul>
-  </div>
+    <li>
+       <label for="printing">Printing / Copies – $</label>
+      <input type="text" id="printing" name="printing">
+          </li>
 
-  <div class="weekbudget">
-    <h3>UHH Campus Center Dining Points</h3>
-    <ul>
-      <li>Points Balance: $___</li>
-      <li>Meals – $___</li>
-      <li>Snacks – $___</li>
-    </ul>
-  </div>
+          <li>
+            <label for="transportation">Transportation (gas, Uber, Hele-On, etc.) – $</label>
+            <input type="text" id="transportation" name="transportation">
+          </li>
+  </ul>
+  </fieldset>
 
-  <div class="weekbudget">
-    <h3>UHH Hale Kehau Dining Points</h3>
+<fieldset>
+<legend>Dorm / Housing Necessities</legend>
     <ul>
-      <li>Meals this Week: #___</li>
-      <li>Monday: #___</li>
-      <li>Tuesday: #___</li>
-      <li>Wednesday: #___</li>
-      <li>Thursday: #___</li>
-      <li>Friday: #___</li>
-      <li>Saturday: #___</li>
-      <li>Sunday: #___</li>
-    </ul>
-  </div>
+          <li>
+            <label for="toiletries">Toiletries – $</label>
+            <input type="text" id="toiletries" name="toiletries">
+          </li>
 
-  <div class="weekbudget">
-    <h3>Miscellaneous</h3>
-    <ul>
-      <li>Personal Purchases - $___</li>
-      <li>Entertainment – $___</li>
-      <li>Emergencies – $___</li>
-    </ul>
-  </div>
+          <li>
+            <label for="cleaning">Cleaning Supplies – $</label>
+            <input type="text" id="cleaning" name="cleaning">
+          </li>
 
-  <div class="weekbudget">
-    <h3>Wishlist</h3>
-    <ul>
-      <li>Item 1 – $___</li>
-      <li>Item 2 – $___</li>
-      <li>Item 3 – $___</li>
-      <li>Long-Term Goal – $___</li>
-    </ul>
-  </div>
+          <li>
+            <label for="laundry">Laundry – $</label>
+            <input type="text" id="laundry" name="laundry">
+          </li>
 
+          <li>
+            <label for="room">Room (decor, bedding, etc.) – $</label>
+            <input type="text" id="room" name="room">
+          </li>
+        </ul>
+        </fieldset>
+
+<fieldset>
+<legend>Food Off-Campus</legend>
+<ul>
+  <li>
+      <label for="restaurants">Restaurants – $</label>
+      <input type="text" id="restaurants" name="restaurants">
+  </li>
+
+    <li>
+      <label for="beverages">Beverages – $</label>
+      <input type="text" id="beverages" name="beverages">
+   </li>
+
+    <li>
+      <label for="snacks">Snacks – $</label>
+      <input type="text" id="snacks" name="snacks">
+    </li>
+
+  <li>
+    <label for="groceries">Groceries – $</label>
+    <input type="text" id="groceries" name="groceries">
+  </li>
+</ul>
+</fieldset>
+
+  
+<fieldset>
+<legend>UHH Campus Center Dining Points</legend>
+  <ul>
+      <li>
+        <label for="pointsbalance">Points Balance – $</label>
+        <input type="text" id="pointsbalance" name="pointsbalance">
+        </li>
+
+      <li>
+        <label for="meals">Meals – $</label>
+        <input type="text" id="meals" name="meals">
+      </li>
+
+      <li>
+        <label for="snacks">Snacks – $</label>
+        <input type="text" id="snacks" name="snacks">
+      </li>
+</ul>
+</fieldset>
+
+<fieldset>
+<legend>UHH Hale Kehau Dining (Meals Per Week)</legend>
+<ul>
+  <li>
+    <label for="totalmeals">Total Meals Available – #</label>
+    <input type="text" id="totalmeals" name="totalmeals">
+  </li>
+
+  <li>
+    <label for="monday">Monday – #</label>
+    <input type="text" id="monday" name="monday">
+  </li>
+
+  <li>
+    <label for="tuesday">Tuesday – #</label>
+    <input type="text" id="tuesday" name="tuesday">
+  </li>
+
+  <li>
+    <label for="wednesday">Wednesday – #</label>
+    <input type="text" id="wednesday" name="wednesday">
+  </li>
+
+  <li>
+    <label for="thursday">Thursday – #</label>
+    <input type="text" id="thursday" name="thursday">
+  </li>
+
+  <li>
+    <label for="friday">Friday – #</label>
+    <input type="text" id="friday" name="friday">
+  </li>
+
+  <li>
+      <label for="saturday">Saturday – #</label>
+      <input type="text" id="saturday" name="saturday">
+      </li>
+
+  <li>
+      <label for="sunday">Sunday – #</label>
+      <input type="text" id="sunday" name="sunday">
+</li>
+</ul>
+</fieldset>
+  
+<fieldset>
+  <legend>Miscellaneous</legend>
+  <ul>
+    <li>
+      <label for="personal">Personal Purchases – $</label>
+      <input type="text" id="personal" name="personal">
+    </li>
+
+    <li>
+      <label for="entertainment">Entertainment / Going Out – $</label>
+      <input type="text" id="entertainment" name="entertainment">
+    </li>
+
+  <li>
+    <label for="emergencies">Emergencies – $</label>
+    <input type="text" id="emergencies" name="emergencies">
+  </li>
+</ul>
+</fieldset>
+ 
+<fieldset>
+<legend>Wishlist</legend>
+<ul>
+    <li>
+      <label for="item1">Item 1 – $</label>
+      <input type="text" id="item1" name="item1">
+    </li>
+
+  <li>
+      <label for="item2">Item 2 – $</label>
+      <input type="text" id="item2" name="item2">
+  </li>
+
+  <li>
+      <label for="item3">Item 3 – $</label>
+      <input type="text" id="item3" name="item3">
+  </li>
+
+   <li>
+      <label for="longterm">Long-Term Goal – $</label>
+      <input type="text" id="longterm" name="longterm">
+   </li>
+</ul>
+</fieldset>
+</form>
+</div>
+</div>
 </main>
 
 <footer>

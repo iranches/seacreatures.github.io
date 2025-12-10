@@ -128,14 +128,14 @@ main {
     padding: 10px;
 }
 
-/*.intro {
+/*
+DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER   
+.intro {
     background-color: rgb(166,245,142);
     max-width: 700px;
     margin: 20;
     padding: 20px;
-}
-DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER    
-*/
+} 
 
 .intro h2 {
     color: rgb(74,163,47);
@@ -145,7 +145,29 @@ DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER
 .intro p {
     font-size: 20px;
 }
-/* Class Schedule Table classchedule.htnk*/
+  */
+
+/*for my budget.html form*/
+fieldset {
+    margin-bottom: 2%;
+}
+
+input {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+    font-size: 18px;
+}
+
+/* class schedule table classchedule.html*/
 .table {
     width: 100%;
     margin: 20px auto;
@@ -160,7 +182,13 @@ DO NOT THINK I AM USING THIS ANYMORE -> HERO BANNER
     color: #033649;
 }
 
-.table th,
+.table th {
+  border: 1px solid rgb(9,84 ,143);
+  border-collapse: collapse;
+  padding: 2%;
+  text-align: center;
+  background-color: rgb(30, 155, 172);
+}
 .table td {
     border: 1px solid rgb(9,84 ,143);
     border-collapse: collapse;
