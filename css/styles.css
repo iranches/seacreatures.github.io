@@ -306,16 +306,12 @@ no longer using now using table for classschedule.html
     display: none;
 }
 
-nav ul {
-      display: none;
-  }
-
   /* Hamburger icon */
   .mobile-nav .nav-icon {
-      display: inline-block;  /* makes it one line */
+      display: inline-block;  
       font-size: 15px;
       color: black;
-      margin-top: 10px;       /* small space below header */
+      margin-top: 10px;      
   }
 
 header h1 {
