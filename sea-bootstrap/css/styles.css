@@ -1,0 +1,19 @@
+@media (min-width: 768px) { 
+    
+    .welcome {
+        padding: 2em;
+    }
+
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) { 
+    
+    .hero {
+        background-position: left;
+    }
+    
+    .display-1 {
+        font-size: 8em;
+    }
+}
