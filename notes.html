@@ -1,4 +1,4 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,51 +8,60 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header>
-<h1>S(ea)tudent Planner</h1>
-<nav class="mobile-nav">
-    <div id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="classschedule.html">Class Schedule</a>
-    <a href="assignments.html">Assignments</a>
-    <a href="notes.html">Notes</a>
-    <a href="budget.html">Weekly Budget</a>
-  </div>
-   <a class="nav-icon" onclick="menu()">
-       <div id="icon">&#9776;</div>
-   </a>
-</nav>
+  <a class="skip" href="#content">Skip to Content</a>
 
+  <nav class="mobile-nav">
+    <div id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="classschedule.html">Class Schedule</a>
+      <a href="assignments.html">Assignments</a>
+      <a href="notes.html">Notes</a>
+      <a href="budget.html">Weekly Budget</a>
+    </div>
+    <a class="nav-icon" onclick="menu()">
+      <div id="icon">&#9776;</div>
+    </a>
   </nav>
 
-</header>
+  <header>
+      <div class="tab-desk">
+    <h1>S(ea)tudent Planner</h1>
+    <h3>Your space to save notes and thoughts!</h3>
+  </div>
+    <div class="mobile">
+      <h1>S(ea)tudent Planner</h1>
+      <h3>Your space to save notes and thoughts!</h3>
+    </div>
+  </header>
 
-<main>
-<div class="hero-image hero-notes">
-  <div class="hero-text">
-    <h1>Sea Your Notes! Template</h1>
-    <p>This is your free space! Write down any notes, thoughts, etc. that you want to store for later.</p>
-</div>
-</div>
+  <main id="content">
 
+    <div class="hero-image hero-notes">
+      <div class="hero-text">
+        <h1>Sea Your Notes! Template</h1>
+        <p>This is your free space! Write down any notes, thoughts, etc. that you want to store for later.</p>
+      </div>
+    </div>
 
-<p>Enjoy this oceanic scenary video to calm you down before starting your notes:
-  <a href="https://www.pexels.com/video/bird-s-eye-view-of-ocean-waves-1918465/" target="_blank" class="link">Ocean View</a>.
-</p>
+    <p>Enjoy this oceanic scenery video to calm you down before starting your notes: 
+      <a href="https://www.pexels.com/video/bird-s-eye-view-of-ocean-waves-1918465/" target="_blank" class="link">Ocean View</a>.
+    </p>
 
-<video controls poster="images/sunset.jpg" class="tinyimg">
-  <source src="media/ocean.mp4" type="video/mp4">
-  <track src="media/captions.vtt" kind="captions" srclang="en" label="English captions">
-  <track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
-  Your browser does not support the video element.
-</video>
+    <video controls poster="images/sunset.jpg" class="tinyimg">
+      <source src="media/ocean.mp4" type="video/mp4">
+      <track src="media/captions.vtt" kind="captions" srclang="en" label="English captions">
+      <track src="media/descriptions.vtt" kind="descriptions" srclang="en" label="English Descriptions">
+      Your browser does not support the video element.
+    </video>
 
-<p class="notes">Write your notes here:</p>
-</main>
+    <p class="notes">Write your notes here:</p>
 
-<footer>
-  <p>S(ea)tudent Planner By Bella</p>
-</footer>
+  </main>
+
+  <footer>
+    <p>S(ea)tudent Planner By Bella</p>
+  </footer>
+
+  <script src="js/scripts.js"></script>
 </body>
-<script src="js/scripts.js"></script>
 </html>
