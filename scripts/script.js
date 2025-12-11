@@ -1,4 +1,4 @@
-//Hamburger menu function
+//hamburger menu function
 function menu() {
     var navlinks = document.getElementById("nav-links");
 		var menuicon = document.getElementById("icon");
