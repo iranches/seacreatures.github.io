@@ -266,10 +266,10 @@ footer {
 
 @media screen and (min-width: 620px) {
     .tab-desk {
-        display: block; /* show desktop nav */
+        display: block; 
     }
     .mobile-nav {
-        display: none; /* hide mobile menu on desktop */
+        display: none; 
     }
 }
 
