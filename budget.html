@@ -8,228 +8,211 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <a class="skip" href="#content">Skip to Content</a>
+
+  <nav class="mobile-nav">
+     <div id="nav-links">
+      <a href="index.html">Home</a>
+      <a href="classschedule.html">Class Schedule</a>
+      <a href="assignments.html">Assignments</a>
+      <a href="notes.html">Notes</a>
+      <a href="budget.html">Weekly Budget</a>
+     </div>
+     <a class="nav-icon" onclick="menu()">
+         <div id="icon">&#9776;</div>
+     </a>
+  </nav>
+
+  
 
   <header>
-  <h1>S(ea)tudent Planner</h1>
- <nav class="mobile-nav">
-   <div id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="classschedule.html">Class Schedule</a>
-    <a href="assignments.html">Assignments</a>
-    <a href="notes.html">Notes</a>
-    <a href="budget.html">Weekly Budget</a>
+    <div class="tab-desk">
+ <h1>S(ea)tudent Planner</h1>
+  <h3>Track your weekly budget for college expenses</h3>
   </div>
-   <a class="nav-icon" onclick="menu()">
-    <div id="icon">&#9776;</div>
-   </a>
-</nav>
-
-</header>
-
-<main>
-
- <div class="hero-image hero-budget">
-  <div class="hero-text">
-    <h1>Weekly Budget Template</h1>
-    <p>Track your weekly budget for wants and necessities during the week!</p>
+    <div class="mobile">
+      <h1>S(ea)tudent Planner</h1>
+      <h3>Track your weekly budget for college expenses</h3>
     </div>
-  </div>
+  </header>
 
-  <div class="weekbudget">
-    <h3>Complete the weekly budget form to start thinking about what you want your budget for different aspects of college to be:</h3>
-    <form class="form-grid">
-<fieldset>
-<legend>UHH Class Necessities</legend>
-<ul>
-    <li>
-        <label for="textbooks">Textbooks / Course Materials – $</label>
-            <input type="text" id="textbooks" name="textbooks">
-    </li>
+  <main id="content">
 
-    <li>
-        <label for="supplies">Supplies (pens, notebooks, etc.) – $</label>
-        <input type="text" id="supplies" name="supplies">
-    </li>
+    <div class="hero-image hero-budget">
+      <div class="hero-text">
+        <h1>Weekly Budget Template</h1>
+        <p>Track your weekly budget for wants and necessities during the week!</p>
+      </div>
+    </div>
 
-    <li>
-       <label for="printing">Printing / Copies – $</label>
-      <input type="text" id="printing" name="printing">
-          </li>
+    <div class="weekbudget">
+      <h3>Complete the weekly budget form to start planning your college expenses:</h3>
+      <form class="form-grid">
 
-          <li>
-            <label for="transportation">Transportation (gas, Uber, Hele-On, etc.) – $</label>
-            <input type="text" id="transportation" name="transportation">
-          </li>
-  </ul>
-  </fieldset>
-
-<fieldset>
-<legend>Dorm / Housing Necessities</legend>
-    <ul>
-          <li>
-            <label for="toiletries">Toiletries – $</label>
-            <input type="text" id="toiletries" name="toiletries">
-          </li>
-
-          <li>
-            <label for="cleaning">Cleaning Supplies – $</label>
-            <input type="text" id="cleaning" name="cleaning">
-          </li>
-
-          <li>
-            <label for="laundry">Laundry – $</label>
-            <input type="text" id="laundry" name="laundry">
-          </li>
-
-          <li>
-            <label for="room">Room (decor, bedding, etc.) – $</label>
-            <input type="text" id="room" name="room">
-          </li>
-        </ul>
+        <fieldset>
+          <legend>UHH Class Necessities</legend>
+          <ul>
+            <li>
+              <label for="textbooks">Textbooks / Course Materials – $</label>
+              <input type="text" id="textbooks" name="textbooks">
+            </li>
+            <li>
+              <label for="supplies">Supplies (pens, notebooks, etc.) – $</label>
+              <input type="text" id="supplies" name="supplies">
+            </li>
+            <li>
+              <label for="printing">Printing / Copies – $</label>
+              <input type="text" id="printing" name="printing">
+            </li>
+            <li>
+              <label for="transportation">Transportation (gas, Uber, Hele-On, etc.) – $</label>
+              <input type="text" id="transportation" name="transportation">
+            </li>
+          </ul>
         </fieldset>
 
-<fieldset>
-<legend>Food Off-Campus</legend>
-<ul>
-  <li>
-      <label for="restaurants">Restaurants – $</label>
-      <input type="text" id="restaurants" name="restaurants">
-  </li>
+        <fieldset>
+          <legend>Dorm / Housing Necessities</legend>
+          <ul>
+            <li>
+              <label for="toiletries">Toiletries – $</label>
+              <input type="text" id="toiletries" name="toiletries">
+            </li>
+            <li>
+              <label for="cleaning">Cleaning Supplies – $</label>
+              <input type="text" id="cleaning" name="cleaning">
+            </li>
+            <li>
+              <label for="laundry">Laundry – $</label>
+              <input type="text" id="laundry" name="laundry">
+            </li>
+            <li>
+              <label for="room">Room (decor, bedding, etc.) – $</label>
+              <input type="text" id="room" name="room">
+            </li>
+          </ul>
+        </fieldset>
 
-    <li>
-      <label for="beverages">Beverages – $</label>
-      <input type="text" id="beverages" name="beverages">
-   </li>
+        <fieldset>
+          <legend>Food Off-Campus</legend>
+          <ul>
+            <li>
+              <label for="restaurants">Restaurants – $</label>
+              <input type="text" id="restaurants" name="restaurants">
+            </li>
+            <li>
+              <label for="beverages">Beverages – $</label>
+              <input type="text" id="beverages" name="beverages">
+            </li>
+            <li>
+              <label for="snacks">Snacks – $</label>
+              <input type="text" id="snacks" name="snacks">
+            </li>
+            <li>
+              <label for="groceries">Groceries – $</label>
+              <input type="text" id="groceries" name="groceries">
+            </li>
+          </ul>
+        </fieldset>
 
-    <li>
-      <label for="snacks">Snacks – $</label>
-      <input type="text" id="snacks" name="snacks">
+        <fieldset>
+          <legend>UHH Campus Center Dining Points</legend>
+          <ul>
+            <li>
+              <label for="pointsbalance">Points Balance – $</label>
+              <input type="text" id="pointsbalance" name="pointsbalance">
+            </li>
+            <li>
+              <label for="meals">Meals – $</label>
+              <input type="text" id="meals" name="meals">
+            </li>
+            <li>
+              <label for="snacks">Snacks – $</label>
+              <input type="text" id="snacks" name="snacks">
+            </li>
+          </ul>
+        </fieldset>
+
+        <fieldset>
+          <legend>UHH Hale Kehau Dining (Meals Per Week)</legend>
+          <ul>
+            <li><label for="totalmeals">Total Meals Available – #</label>
+              <input type="text" id="totalmeals" name="totalmeals">        
     </li>
+            <li>
+              <label for="monday">Monday – #</label>
+              <input type="text" id="monday" name="monday">
+            </li>
+            <li>
+              <label for="tuesday">Tuesday – #</label>
+              <input type="text" id="tuesday" name="tuesday"></li>
+            <li>
+              <label for="wednesday">Wednesday – #</label>
+              <input type="text" id="wednesday" name="wednesday"></li>
+            <li>
+              <label for="thursday">Thursday – #</label>
+              <input type="text" id="thursday" name="thursday">
+            </li>
+            <li>
+              <label for="friday">Friday – #</label>
+              <input type="text" id="friday" name="friday">
+            </li>
+            <li>
+              <label for="saturday">Saturday – #</label>
+              <input type="text" id="saturday" name="saturday">
+            </li>
+            <li>
+              <label for="sunday">Sunday – #</label>
+              <input type="text" id="sunday" name="sunday"
+              ></li>
+          </ul>
+        </fieldset>
 
-  <li>
-    <label for="groceries">Groceries – $</label>
-    <input type="text" id="groceries" name="groceries">
-  </li>
-</ul>
-</fieldset>
+        <fieldset>
+          <legend>Miscellaneous</legend>
+          <ul>
+            <li>
+              <label for="personal">Personal Purchases – $</label>
+              <input type="text" id="personal" name="personal">
+          </li>
+            <li>
+              <label for="entertainment">Entertainment / Going Out – $</label><input type="text" id="entertainment" name="entertainment"></li>
+            <li>
+              <label for="emergencies">Emergencies – $</label>
+              <input type="text" id="emergencies" name="emergencies"></li>
+          </ul>
+        </fieldset>
 
-  
-<fieldset>
-<legend>UHH Campus Center Dining Points</legend>
-  <ul>
-      <li>
-        <label for="pointsbalance">Points Balance – $</label>
-        <input type="text" id="pointsbalance" name="pointsbalance">
-        </li>
+        <fieldset>
+          <legend>Wishlist</legend>
+          <ul>
+            <li>
+              <label for="item1">Item 1 – $</label>
+              <input type="text" id="item1" name="item1">
+            </li>
+            <li>
+              <label for="item2">Item 2 – $</label>
+              <input type="text" id="item2" name="item2">
+            </li>
+            <li>
+              <label for="item3">Item 3 – $</label>
+              <input type="text" id="item3" name="item3">
+            </li>
+            <li>
+              <label for="longterm">Long-Term Goal – $</label>
+              <input type="text" id="longterm" name="longterm">
+            </li>
+          </ul>
+        </fieldset>
 
-      <li>
-        <label for="meals">Meals – $</label>
-        <input type="text" id="meals" name="meals">
-      </li>
+      </form>
+    </div>
+  </main>
 
-      <li>
-        <label for="snacks">Snacks – $</label>
-        <input type="text" id="snacks" name="snacks">
-      </li>
-</ul>
-</fieldset>
+  <footer>
+    <p>S(ea)tudent Planner by Bella</p>
+  </footer>
 
-<fieldset>
-<legend>UHH Hale Kehau Dining (Meals Per Week)</legend>
-<ul>
-  <li>
-    <label for="totalmeals">Total Meals Available – #</label>
-    <input type="text" id="totalmeals" name="totalmeals">
-  </li>
-
-  <li>
-    <label for="monday">Monday – #</label>
-    <input type="text" id="monday" name="monday">
-  </li>
-
-  <li>
-    <label for="tuesday">Tuesday – #</label>
-    <input type="text" id="tuesday" name="tuesday">
-  </li>
-
-  <li>
-    <label for="wednesday">Wednesday – #</label>
-    <input type="text" id="wednesday" name="wednesday">
-  </li>
-
-  <li>
-    <label for="thursday">Thursday – #</label>
-    <input type="text" id="thursday" name="thursday">
-  </li>
-
-  <li>
-    <label for="friday">Friday – #</label>
-    <input type="text" id="friday" name="friday">
-  </li>
-
-  <li>
-      <label for="saturday">Saturday – #</label>
-      <input type="text" id="saturday" name="saturday">
-      </li>
-
-  <li>
-      <label for="sunday">Sunday – #</label>
-      <input type="text" id="sunday" name="sunday">
-</li>
-</ul>
-</fieldset>
-  
-<fieldset>
-  <legend>Miscellaneous</legend>
-  <ul>
-    <li>
-      <label for="personal">Personal Purchases – $</label>
-      <input type="text" id="personal" name="personal">
-    </li>
-
-    <li>
-      <label for="entertainment">Entertainment / Going Out – $</label>
-      <input type="text" id="entertainment" name="entertainment">
-    </li>
-
-  <li>
-    <label for="emergencies">Emergencies – $</label>
-    <input type="text" id="emergencies" name="emergencies">
-  </li>
-</ul>
-</fieldset>
- 
-<fieldset>
-<legend>Wishlist</legend>
-<ul>
-    <li>
-      <label for="item1">Item 1 – $</label>
-      <input type="text" id="item1" name="item1">
-    </li>
-
-  <li>
-      <label for="item2">Item 2 – $</label>
-      <input type="text" id="item2" name="item2">
-  </li>
-
-  <li>
-      <label for="item3">Item 3 – $</label>
-      <input type="text" id="item3" name="item3">
-  </li>
-
-   <li>
-      <label for="longterm">Long-Term Goal – $</label>
-      <input type="text" id="longterm" name="longterm">
-   </li>
-</ul>
-</fieldset>
-</form>
-</div>
-</main>
-
-<footer>
-  <p>S(ea)tudent Planner by Bella</p>
-</footer>
-<script src="js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
