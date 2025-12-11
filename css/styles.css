@@ -117,53 +117,59 @@ header h3 {
   display: inline-block;
 }
 
+/* desktop nav */
+nav {
+    text-align: center;
+}
+
 nav ul {
-    margin: 20px;
-    padding: 10 px;
     list-style-type: none;
-    /*list-style-type I searched on Google because I want to get rid of bullet points, list-style-type focuses on what style you want to use */
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 nav ul li {
     display: inline-block;
-    margin: 20px;
 }
 
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 600;
 }
 
-.mobile-nav { 
+/* mobile nav */
+.mobile-nav {
+    display: none; 
     text-align: center;
-    background-color: rgb(76, 194, 186);
+    background-color: rgb(64,181,173);
+    padding: 10px 0;
 }
 
-.mobile-nav a {
-    color: #fff;
-    text-align: center;
-    font-size: 15px;
+.mobile-nav button.hamburger {
+    background: none;
+    border: none;
+    font-size: 28px;
+    margin: 0 auto;   
+    display: block;
+}
+
+/* links hidden until clicked */
+.mobile-nav .mobile-links {
+    display: none;
+    background-color: rgb(64,181,173);
+}
+
+.mobile-nav .mobile-links a {
+    display: block;
+    padding: 10px;
+    color: white;     
     text-decoration: none;
-    padding: 3%;
-    display: inline-block;
+    font-size: 18px;
 }
-
-.mobile-nav a.nav-icon {
-    font-size: 15px;
-    display: inline-block;
-    position: absolute;
-    color: #162c5c;
-    margin-top: 10px;  
-    text-align: center;
-    padding: 2%;
-}
-
-.nav-icon div { 
-    height: 15px;
-    width: 15px;
-    color: #2a1f14; 
-} 
 
 main {
     text-align: center;
@@ -306,36 +312,27 @@ no longer using now using table for classschedule.html
 
 @media screen and (max-width: 600px) {
 
-.mobile-nav {
-        display: block;
+    /* hide desktop nav in mobile */
+    nav ul {
+        display: none;
     }
 
-  .mobile-nav .nav-icon {
-      display: inline-block;  
-      font-size: 15px;
-      color: black;
-      margin-top: 10px;      
-  }
-
+    /* show mobile nav */
+    .mobile-nav {
+        display: block;
+    }
 header h1 {
     font-size: 25px;
-    margin: 20px;
+    margin: 18px;
 }
 
 header h2 {
-   font-size: 20px;
+   font-size: 16px;
 }
 
-/*nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-}*/
+header h2 {
+   font-size: 15px;
+}
 
 main {
     padding: 5px;
