@@ -6,67 +6,100 @@
   <title>Under the S(ea)tudent Planner! | Assignments</title>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">   
+  <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
-  <header>
-    <h1>S(ea)tudent Planner</h1>
-    <!--hamburger-->
-<nav class="mobile-nav">
-   <div id="nav-links">
-    <a href="index.html">Home</a>
-    <a href="classschedule.html">Class Schedule</a>
-    <a href="assignments.html">Assignments</a>
-    <a href="notes.html">Notes</a>
-    <a href="budget.html">Weekly Budget</a>
-   </div>
-   <a class="nav-icon" onclick="menu()">
-       <div id="icon">&#9776;</div>
-   </a>
-</nav>
+  <a class="skip" href="#content">Skip to Content</a>
+  <div id="wrapper">
 
-  </header>
+    <nav class="mobile-nav">
+       <div id="nav-links">
+          <a href="index.html">Home</a>
+          <a href="classschedule.html">Class Schedule</a>
+          <a href="assignments.html">Assignments</a>
+          <a href="notes.html">Notes</a>
+          <a href="budget.html">Weekly Budget</a>
+       </div>
+       <a class="nav-icon" onclick="menu()">
+           <div id="icon">&#9776;</div>
+       </a>
+    </nav>
 
-   <main>
-    <div class="hero-image hero-assignments">
-      <div class="hero-text">
-      <h1>Upcoming Assignments Template</h1>
-      <p>Stay up to date! This template includes writing your class, the assignment name, and due date</p>
+    <header>
+      <div class="tab-desk">
+        <a href="index.html">
+          <img src="images/sharkshero.jpg" alt="shark hero image">
+        </a>
       </div>
-    </div>
+      <div class="mobile">
+        <h1>S(ea)tudent Planner</h1>
+        <h3>Stay up to date with your assignments and classes</h3>
+      </div>
+    </header>
 
-<table class="table">
-<caption>Upcoming Assignments</caption>
-<thead>
-  <tr>
-      <th>Class</th>
-      <th>Assignment</th>
-      <th>Due Date</th>
-  </tr>
-</thead>
-<tbody>
-    <tr>
-      <td>Example Class 1</td>
-      <td>Assignment Name</td>
-      <td>XX/XX</td>
-    </tr>
-  <tr>
-      <td>Example Class 2</td>
-      <td>Assignment Name</td>
-      <td>XX/XX</td>
-  </tr>
-    <tr>
-      <td>Example Class 3</td>
-      <td>Assignment Name</td>
-      <td>XX/XX</td>
-    </tr>
-</tbody>
-</table>
+    <nav class="tab-desk">
+      <p>
+        <a href="index.html">Home</a> &nbsp; &#9672; &nbsp;
+        <a href="classschedule.html">Class Schedule</a> &nbsp; &#9672; &nbsp;
+        <a href="assignments.html">Assignments</a> &nbsp; &#9672; &nbsp;
+        <a href="notes.html">Notes</a> &nbsp; &#9672; &nbsp;
+        <a href="budget.html">Weekly Budget</a>
+      </p>
+    </nav>
 
-  </main>
+    <main id="content">
+      <div class="hero-image hero-assignments">
+        <div class="hero-text">
+          <h1>Upcoming Assignments Template</h1>
+          <p>Stay up to date! This template includes writing your class, the assignment name, and due date.</p>
+        </div>
+      </div>
 
-  <footer>
-    <p>S(ea)tudent Planner By Bella</p>
-  </footer>
-<script src="js/scripts.js"></script>  
+      <table class="table">
+        <caption>Upcoming Assignments</caption>
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>Assignment</th>
+            <th>Due Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Example Class 1</td>
+            <td>Assignment Name</td>
+            <td>XX/XX</td>
+          </tr>
+          <tr>
+            <td>Example Class 2</td>
+            <td>Assignment Name</td>
+            <td>XX/XX</td>
+          </tr>
+          <tr>
+            <td>Example Class 3</td>
+            <td>Assignment Name</td>
+            <td>XX/XX</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <p>S(ea)tudent Planner By Bella</p>
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/facebook-logo.png" alt="Facebook logo">
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+          <img src="images/twitter-logo.png" alt="Twitter logo">
+        </a>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
