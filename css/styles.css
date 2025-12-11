@@ -283,3 +283,19 @@ footer {
     }
 }
 
+@media screen and (min-width: 601px) {
+    .tab-desk { 
+      display: block;
+     }
+    .mobile, .mobile-nav 
+    { 
+      display: none; 
+    }
+    nav li { 
+      border-top: none; display: inline-block; font-size: 1.25em;
+     }
+    nav li a { 
+      padding: 0.5em; 
+    }
+}
+
